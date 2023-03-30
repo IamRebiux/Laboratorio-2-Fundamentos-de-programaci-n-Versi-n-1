@@ -7,7 +7,7 @@ pago= float(input("Ingresse el efectivo con el que pagara: \n ----->"))
 #Evaluacion del efectivo pagado
 while pago < costo: 
     costoFaltante = costo - pago
-    print(f"Usted debe ${costoFaltante.round} ¡por favor pagar completo!").
+    print(f"Usted debe ${costoFaltante} ¡por favor pagar completo!")
     pagofaltante = float(input("Ingrese el pago Restante \n --> "))
     pago += pagofaltante
 
