@@ -22,7 +22,5 @@ if pago > costo:
 
 if costo == pago:
         print(f"La cantidad es exacta (No tiene cambio) \n ¡Gracias por su compra!")
-if costo == pago:
-        print(f"La cantidad es exacta (No tiene cambio) \n ¡Gracias por su compra!")
         
 print("FIN")
